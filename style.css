@@ -1,0 +1,44 @@
+img{
+  max-width: 100%;
+}
+
+body{
+  margin: 0px;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.headers{
+  background: rgba(10, 10, 10, 0.1);
+  font-size: 20px;
+}
+
+a{
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.warning{
+  background: rgba(250, 170, 50);
+  font-size: 30px;
+  animation: flash 2s infinite linear;
+}
+
+@keyframes flash{
+  0%{
+    background: rgba(255, 0, 0);
+  }
+  30%{
+    background: rgba(250, 220, 0);
+  }
+  60%{
+    background: rgba(250, 170, 50);
+  }
+  90%{
+    background: rgba(250, 200, 30);
+  }
+}
